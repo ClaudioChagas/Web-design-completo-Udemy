@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "josefin Sons", sans-serif ;
+}
+
+.page1 {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto auto auto auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteudo {
+    border-radius: 5px;
+}
+
+.cabeca {
+    display: flex;
+    background-color: rgb(1, 37, 48) ;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.cabeca img {
+    width: 90px;
+    height: 40px;
+
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+}
+
+.nav li {
+    padding-right: 15px;
+    letter-spacing: 3px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(1, 80, 100);
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: whitesmoke;
+}
+
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.textos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.textos p {
+    width: 70%;
+    padding-top:40px;
+    color: rgb(126, 124, 124);
+    
+}
+
+.imagens {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.setor h4{
+    color:rgb(126, 124, 124);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.setor p {
+    padding-top: 5px;
+    color: rgb(189, 189, 189);
+}
+
+.page3 {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 40px ;
+    
+    
+}
+
+.imagem3 {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.imagem3 img {
+    width:80%;
+    height: 538px;
+    margin: auto;
+   
+}
+
+.imagem3 h1 {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+
+.imagem3 h2{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(189, 189, 189);
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(1, 37, 48)
+}
+
+.page4 {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30px ;
+}
+
+.fim {
+    background-color: rgb(1, 37, 48) ;
+    padding: 20px 1000px 20px 1000px;
+    margin-top: 20px;
+    display: flex;
+}
